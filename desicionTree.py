@@ -1,7 +1,6 @@
 
 from sklearn import tree, preprocessing, metrics
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 file = pd.read_csv('50_Startups.csv')
